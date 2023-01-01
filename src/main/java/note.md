@@ -31,5 +31,19 @@
 ### 터미널 서버실행 종료
 control + C
 
+### MVC
+- model, view, controller
 
-> study by inflearn 1.0 Release (2023.01.01)
+### 인텔리제이
+- command +shift + enter = 문장 완성 (); 해 
+
+### getter & setter
+- 자바 빈 규약
+- private 객체 -> 접근하기 위해선 게터 세터
+
+### @ResponseBody
+- HTTP의 BODY에 문자 내용을 직접 반환
+- viewResolver 대신 'HttpMessageConverter' 동작
+- 기본 문자처리 : StringHttpMessageConverter
+- 기본 객체처리 : MappingJacson2HttpMessageConverter
+- byte 처리 등 기타 여러 HttpMessageConverter가 기본으로 등록되있음
