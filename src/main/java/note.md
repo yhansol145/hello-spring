@@ -36,6 +36,8 @@ control + C
 
 ### 인텔리제이
 - command +shift + enter = 문장 완성 (); 해 
+- control + T = 리팩토링 관련 기능
+- command + option + M = 메소드 뽑기
 
 ### getter & setter
 - 자바 빈 규약
@@ -47,3 +49,13 @@ control + C
 - 기본 문자처리 : StringHttpMessageConverter
 - 기본 객체처리 : MappingJacson2HttpMessageConverter
 - byte 처리 등 기타 여러 HttpMessageConverter가 기본으로 등록되있음
+
+### Optional
+- java8에 들어간 기능
+- NEP(NullPointException)을 방지할 수 있게 해준다.
+- null이 올 수 있는 값을 감싸는 Wrapper클래스로 NPE가 발생하지 않도록 해준다.
+
+### 비교(equals)
+- org.assertj.core.api.Assertions;
+- Assertions.assertThat(비교값1).isEqualTo(비교값2);
+
